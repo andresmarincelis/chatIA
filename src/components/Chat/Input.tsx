@@ -1,11 +1,9 @@
 import { MicrophoneIcon, PaperAirplaneIcon, PhotoIcon } from "@heroicons/react/24/outline";
-import { inputBg } from "../../utils/colors";
 
 export const Input = () => {
   return (
     <div
-      style={{ backgroundColor: inputBg }}
-      className="flex w-full py-5 px-4 rounded-2xl flex-row"
+      className="flex w-full py-5 px-4 rounded-2xl flex-row bg-input_bg"
     >
       <div className="flex flex-row w-full mr-4">
         <div className="flex flex-row gap-x-2 mr-4">
