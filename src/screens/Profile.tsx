@@ -1,4 +1,4 @@
-import { SideBarHOC } from '../components/SideBar/SideBarHOC'
+import { SideBarHOC } from '../components/HOC/SidebarTemplate'
 
 export const Profile = () => {
   return (

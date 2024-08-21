@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
-import { SideBar } from "./SideBar";
+import { SideBar } from "../SideBar/SideBar";
 
-export const SideBarHOC = ({ children }: { children: ReactNode }) => {
+export const SidebarTemplate = ({ children }: { children: ReactNode }) => {
   return (
     <div className="flex flex-row">
       <SideBar />

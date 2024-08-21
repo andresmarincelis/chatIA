@@ -1,11 +1,11 @@
 import { ButtonNewChat } from "./ButtonNewChat";
-import { TextSaved } from "./TextSaved";
+import { OldChatButton } from "./OldChatButton";
 
-export const SideBarPrimary = () => {
+export const TopPanel = () => {
   return (
     <div className="flex flex-col gap-y-1 py-5 px-5">
       <ButtonNewChat />
-      <TextSaved info="Chat anterior" />
+      <OldChatButton info="Chat anterior" />
     </div>
   );
 };
